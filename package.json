@@ -1,0 +1,27 @@
+{
+  "name": "Monamijute",
+  "version": "1.0.0",
+  "description": "Website for Monami Impex Ltd.",
+  "main": "index.iced",
+  "scripts": {
+    "start": "iced index.iced",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node_modules/.bin/bower install --allow-root"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:monamijute/Monamijute.git"
+  },
+  "keywords": [
+    "monamijute"
+  ],
+  "author": "ark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monamijute/Monamijute/issues"
+  },
+  "homepage": "https://github.com/monamijute/Monamijute",
+  "dependencies": {
+    "body-parser": "^1.10.2"
+  }
+}
