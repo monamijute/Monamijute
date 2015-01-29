@@ -55,7 +55,7 @@ if app.get("env") == 'development'
 
 
 
-app.set 'port' , 8000
+app.set 'port' , process.env.PORT || 8000
 
 debug = require('debug')('sample')
 
