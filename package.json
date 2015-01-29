@@ -2,9 +2,9 @@
   "name": "Monamijute",
   "version": "1.0.0",
   "description": "Website for Monami Impex Ltd.",
-  "main": "index.iced",
+  "main": "app.iced",
   "scripts": {
-    "start": "iced index.iced",
+    "start": "iced app.iced",
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "node_modules/.bin/bower install --allow-root"
   },
@@ -29,8 +29,10 @@
     "connect": "^3.3.4",
     "connect-assets": "^4.4.0",
     "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.3.3",
     "cookie-session": "^1.1.0",
     "csurf": "^1.6.5",
+    "debug": "^2.1.1",
     "express": "^4.11.1",
     "iced-coffee-script": "^1.8.0-c",
     "jade": "^1.9.1",
@@ -38,6 +40,7 @@
     "moment": "^2.9.0",
     "morgan": "^1.5.1",
     "nodetime": "^0.8.15",
+    "serve-favicon": "^2.2.0",
     "stylus": "^0.49.3",
     "underscore": "^1.7.0"
   }
