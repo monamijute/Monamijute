@@ -42,5 +42,9 @@
     "serve-favicon": "^2.2.0",
     "stylus": "^0.49.3",
     "underscore": "^1.7.0"
+  },
+  "engine" : {
+    "node" : "^0.10.35",
+    "npm"  : "^1.4.28"
   }
 }
