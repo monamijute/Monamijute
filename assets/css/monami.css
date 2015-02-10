@@ -1,0 +1,13 @@
+body{
+	background: url("/image/green-fibers.png") ;
+}
+
+.card{
+	padding-top: 5px ;
+	padding-bottom: 5px ;
+	padding-left: 2px ;
+	padding-right: 2px ;
+	background-color: #f8f5f0 ;
+
+}
+
