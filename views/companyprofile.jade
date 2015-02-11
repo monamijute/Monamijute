@@ -58,6 +58,34 @@ block content
 					li
 						a( href = "#" data-toggle = "modal" data-target = "#sign-modal").
 							Sign in
+	.container
+		.modal.fade#sign-modal(tabindex="-1" role = "dialog" aria-labelledby = "signModalLabel" aria-hidden = "true")
+			.modal-dialog
+				.modal-content
+					.modal-header
+						button.close(type="button" class="close" data-dismiss="modal").
+							x
+						h4.modal-title.
+							Sign in
+					.modal-body
+						form.form-horizontal
+							fieldset
+								.form-group
+									label.col-lg-2.control-label.
+										Username
+									.col-lg-10
+										input.form-control(type = "text" name="username" placeholder = "Username")
+								.form-group
+									label.col-lg-2.control-label.
+										Password
+									.col-lg-10
+										input.form-control(type = "password" name="username" placeholder = "Password")
+
+					.modal-footer
+						button.btn.btn-primary.
+							Sign in
+						button.btn.btn-default(data-dismiss="modal").
+							Close
 
 	br
 	br
