@@ -9,5 +9,19 @@ body{
 	padding-right: 2px ;
 	background-color: #f8f5f0 ;
 
+
 }
 
+.cardblock{
+	background-color: #f8f5f0 ;
+	padding-left: 20% ;
+	padding-right: 20% ;
+	padding-bottom: 5%;
+} 
+
+.pblock{
+	padding-left: 8% ;
+	padding-right: 8% ;
+	font-size: 1.25em;
+
+}
