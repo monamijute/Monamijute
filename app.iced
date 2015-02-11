@@ -61,7 +61,8 @@ app.set 'port' , process.env.PORT || 8000
 debug = require('debug')('sample')
 
 
-server = app.listen app.get('port') , ()->
+server = app.listen app.get('port') , ->
+	console.log 'listening on 8000'
 
 
 module.exports = app
