@@ -16,7 +16,7 @@ block content
 
 			.navbar-collapse.collapse.navbar-responsive-collapse#nvcollapse
 				ul.nav.navbar-nav.navbar-right
-					li.active 
+					li 
 						a(href="/") Home
 					li
 						a(href="/companyprofile"). 
@@ -55,13 +55,12 @@ block content
 								a(href="#") Jute Rope
 							li 
 								a(href="#") Jute Felt
-					li
+					li.active
 						a(href = "/contactus").
 							Contact Us
 					li
 						a( href = "#" data-toggle = "modal" data-target = "#sign-modal").
 							Sign in
-
 	.container
 		.modal.fade#sign-modal(tabindex="-1" role = "dialog" aria-labelledby = "signModalLabel" aria-hidden = "true")
 			.modal-dialog
@@ -90,40 +89,117 @@ block content
 							Sign in
 						button.btn.btn-default(data-dismiss="modal").
 							Close
-						
 
 	br
 	br
 	br
 	br
-
 	.container
-		.jumbotron
+		.col-lg-7.cardblock
+			form.form-horizontal
+				fielset
+					h2.text-center(style="color:brown;")
+						|Contact Us
+					br
+					.form-group
+						label.col-lg-2.control-label
+							|Name
+						.col-lg-10
+							input.form-control#inputName(placeholder = "Name")
+					.form-group
+						label.col-lg-2.control-label
+							|Company
+						.col-lg-10
+							input.form-control#inputName(placeholder = "Company Name")
+					.form-group
+						label.col-lg-2.control-label
+							|Phone
+						.col-lg-10
+							input.form-control#inputName(placeholder = "Phone Number")
 
-			h1.text-center.
-				Welcome to Monami Impex Ltd.
-			p.text-center.
-				All sorts of jute goods manufacturer &amp; exporter
-			div.text-center
-				a(href="#").btn.btn-primary.btn-lg.
-						Learn More
-		br
+					.form-group
+						label.col-lg-2.control-label
+							|Email
+						.col-lg-10
+							input.form-control#inputName(placeholder = "Email")
+					.form-group
+						label.col-lg-2.control-label
+							|Subject
+						.col-lg-10
+							input.form-control#inputName(placeholder = "Subject")
+					.form-group
+						label.col-lg-2.control-label
+							|Country
+						.col-lg-10
+							select.form-control#inputCountry
+								option.
+									Select Country
+								option.
+									Austria
+								option.
+									Bangladesh
+								option.
+									Saudi Arabia
+								option.
+									Yemen
+
+
+					.form-group
+						label.col-lg-2.control-label
+							|Message
+						.col-lg-10
+							textarea.form-control#textArea(rows = "3" style="margin: 0px -0.84375px 0px 0px; height: 89px; width: 523px;")
+
+					.form-group
+						.col-lg-10.col-lg-offset-2
+							button.btn.btn-primary.
+								Submit
+							&nbsp;
+							button.btn.btn-danger.
+								Reset
 		
-		.card.col-lg-4.left
-			h1.text-center
-				|Come On
-			p.text-center
-				|This is really weird. I messed everything like crazy.
-		.card.col-lg-4.middle
-			h1.text-center
-				|Come On
-			p.text-center
-				|This is really weird. I messed everything like crazy.
-		.card.col-lg-4.right
-			h1.text-center
-				|Come On
-			p.text-center
-				|This is really weird. I messed everything like crazy.
 
+		.panel.panel-primary.col-lg-4.pull-right
+			.panel-heading
+				h3.panel-title.
+					Contact Person
+			.panel-body
+				h3
+					strong(style="color:brown").
+						Syed Jahangir Hossain
+				h2.small
+					strong.
+						Managing Director
+				p
+					strong.
+						Mobile: 
+					|01715-161900, 01714-048377
 				
+
+		.panel.panel-primary.col-lg-4.pull-right
+			.panel-heading
+				h3.panel-title.
+					Contact Information
+			.panel-body
+				p
+					strong.
+						Address: 
+					|54 Motijeel C/A, Elite House, 4th Floor, Dhaka-1000, Bangladesh
+				p
+					strong.
+						Telephone: 
+					|880-2-7170388, 880-2-9551085,880-2-3560886, 880-2-9554152
+				p 
+					strong.
+						Fax: 
+					|880-2-9560422, 880-2-8823824
+
+				p
+					strong.
+						Email: 
+					|monami.jutex@gmail.com
+	br
+	br
+	br
+	br
 
