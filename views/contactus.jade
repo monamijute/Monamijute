@@ -95,7 +95,7 @@ block content
 	br
 	br
 	.container
-		.col-lg-7.cardblock
+		.col-lg-7.cardblock(style="margin-right:20px;margin-bottom:20px;")
 			form.form-horizontal
 				fielset
 					h2.text-center(style="color:brown;")
@@ -148,7 +148,7 @@ block content
 						label.col-lg-2.control-label
 							|Message
 						.col-lg-10
-							textarea.form-control#textArea(rows = "3" style="margin: 0px -0.84375px 0px 0px; height: 89px; width: 523px;")
+							textarea.form-control#textArea(rows = "3" style="margin: 0px -0.84375px 0px 0px; height: 89px; max-width: 523px; min-width:10px;" )
 
 					.form-group
 						.col-lg-10.col-lg-offset-2
@@ -159,45 +159,46 @@ block content
 								Reset
 		
 
-		.panel.panel-primary.col-lg-4.pull-right
-			.panel-heading
-				h3.panel-title.
-					Contact Person
-			.panel-body
-				h3
-					strong(style="color:brown").
-						Syed Jahangir Hossain
-				h2.small
-					strong.
-						Managing Director
-				p
-					strong.
-						Mobile: 
-					|01715-161900
-				
+		.sidebar
+			.panel.panel-primary.col-lg-4
+				.panel-heading
+					h3.panel-title.
+						Contact Person
+				.panel-body
+					h3
+						strong(style="color:brown").
+							Syed Jahangir Hossain
+					h2.small
+						strong.
+							Managing Director
+					p
+						strong.
+							Mobile: 
+						|01715-161900
+					
 
-		.panel.panel-primary.col-lg-4.pull-right
-			.panel-heading
-				h3.panel-title.
-					Contact Information
-			.panel-body
-				p
-					strong.
-						Address: 
-					|54 Motijeel C/A, Elite House, 4th Floor, Dhaka-1000, Bangladesh
-				p
-					strong.
-						Telephone: 
-					|880-2-7170388, 880-2-9551085,880-2-3560886, 880-2-9554152
-				p 
-					strong.
-						Fax: 
-					|880-2-9560422, 880-2-8823824
+			.panel.panel-primary.col-lg-4
+				.panel-heading
+					h3.panel-title.
+						Contact Information
+				.panel-body
+					p
+						strong.
+							Address: 
+						|54 Motijeel C/A, Elite House, 4th Floor, Dhaka-1000, Bangladesh
+					p
+						strong.
+							Telephone: 
+						|880-2-7170388, 880-2-9551085,880-2-3560886, 880-2-9554152
+					p 
+						strong.
+							Fax: 
+						|880-2-9560422, 880-2-8823824
 
-				p
-					strong.
-						Email: 
-					|monami.jutex@gmail.com
+					p
+						strong.
+							Email: 
+						|monami.jutex@gmail.com
 	br
 	br
 	br
