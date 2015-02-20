@@ -22,8 +22,14 @@ block content
 						a(href="/companyprofile"). 
 							Company Profile
 					li
-						a(href="#").
-							Photo Gallery
+						a.dropdown-toggle(data-toggle="dropdown")
+							|Photo Gallery
+							b.caret
+						ul.dropdown-menu
+							li
+								a(href="#") Our Factory
+							li
+								a(href="/productgallery") Our Products
 					li.dropdown
 						a.dropdown-toggle(data-toggle="dropdown")
 							|Products 

@@ -16,10 +16,12 @@ block content
 
 			.navbar-collapse.collapse.navbar-responsive-collapse#nvcollapse
 				ul.nav.navbar-nav.navbar-right
-					li.active 
-						a(href="/") Home
 					li
-						a(href="/companyprofile"). 
+						a(href="/")
+							i.glyphicon.glyphicon-home
+								|&nbsp;Home
+					li
+						a(href="/companyprofile").
 							Company Profile
 					li
 						a.dropdown-toggle(data-toggle="dropdown")
@@ -32,34 +34,34 @@ block content
 								a(href="/productgallery") Our Products
 					li.dropdown
 						a.dropdown-toggle(data-toggle="dropdown")
-							|Products 
+							|Products
 							b.caret
 						ul.dropdown-menu
-							li 
+							li
 								a(href="#") Hessian Cloth
-							li 
+							li
 								a(href="#") Hessain Bag
-							li 
+							li
 								a(href="#") Sand Bag
-							li 
+							li
 								a(href="#") Jute Tape
-							li 
+							li
 								a(href="#") Hessain Sheet / Tobacco Sheet
-							li 
+							li
 								a(href="#") Geo-Jute / Soil Saver
-							li 
+							li
 								a(href="#") Jute Caddies
-							li 
+							li
 								a(href="#") Sacking
-							li 
+							li
 								a(href="#") Carpet Backing Cloth
-							li 
+							li
 								a(href="#") Jute Yarn / Twine
-							li 
+							li
 								a(href="#") Raw Jute
-							li 
+							li
 								a(href="#") Jute Rope
-							li 
+							li
 								a(href="#") Jute Felt
 					li
 						a(href = "/contactus").
@@ -96,40 +98,96 @@ block content
 							Sign in
 						button.btn.btn-default(data-dismiss="modal").
 							Close
-						
 
-	br
-	br
-	br
-	br
+
+		br
+		br
+		br
+		br
+
 
 	.container
-		.jumbotron
-
-			h1.text-center.
-				Welcome to Monami Impex Ltd.
-			p.text-center.
-				All sorts of jute goods manufacturer &amp; exporter
-			div.text-center
-				a(href="#").btn.btn-primary.btn-lg.
-						Learn More
+		.text-center
+			h2(style="color: white;").
+				Our Products
 		br
-		
-		.card.col-lg-4.left
-			h1.text-center
-				|Come On
-			p.text-center
-				|This is really weird. I messed everything like crazy.
-		.card.col-lg-4.middle
-			h1.text-center
-				|Come On
-			p.text-center
-				|This is really weird. I messed everything like crazy.
-		.card.col-lg-4.right
-			h1.text-center
-				|Come On
-			p.text-center
-				|This is really weird. I messed everything like crazy.
 
-				
+		#links
+			.imgblock
+				a(href="image/img1.jpg" title = "Image 1" data-gallery)
+					img(src="image/img1.jpg" alt = "Image 1")
+				h4.text-center.
+					Image 1
 
+			.imgblock
+				a(href="image/img2.jpg" title = "Image 2" data-gallery)
+					img(src="image/img2.jpg" alt = "Image 2")
+				h4.text-center.
+					Image 2
+
+			.imgblock
+				a(href="image/img1.jpg" title = "Image 3" data-gallery)
+					img(src="image/img1.jpg" alt = "Image 3")
+				h4.text-center.
+					Image 3
+
+			.imgblock
+				a(href="image/img1.jpg" title = "Image 4" data-gallery)
+					img(src="image/img1.jpg" alt = "Image 4")
+				h4.text-center.
+					Image 4
+
+			.imgblock
+				a(href="image/img2.jpg" title = "Image 5" data-gallery)
+					img(src="image/img2.jpg" alt = "Image 5")
+				h4.text-center.
+					Image 5
+
+			.imgblock
+				a(href="image/img1.jpg" title = "Image 6" data-gallery)
+					img(src="image/img1.jpg" alt = "Image 6")
+				h4.text-center.
+					Image 6
+
+			.imgblock
+				a(href="image/img1.jpg" title = "Image 7" data-gallery)
+					img(src="image/img1.jpg" alt = "Image 7")
+				h4.text-center.
+					Image 7
+
+			.imgblock
+				a(href="image/img2.jpg" title = "Image 8" data-gallery)
+					img( src="image/img2.jpg" alt = "Image 8" )
+				h4.text-center.
+					Image 8
+
+			.imgblock
+				a(href="image/img1.jpg" title = "Image 9" data-gallery)
+					img(src="image/img1.jpg" alt = "Image 9")
+				h4.text-center.
+					Image 9
+
+
+		.blueimp-gallery#blueimp-gallery
+			.slides
+			h3.title
+			a.prev
+			a.next
+			a.close
+			a.play-pause
+			ol.indicator
+			.modal.fade
+				.modal-dialog
+					.modal-content
+						.modal-header
+							button.close(type="button" aria-hidden="true")
+								|&times;
+							h4.modal-title
+						.modal-body.next
+						.modal-footer
+							button.btn.btn-default.pull-left.prev(button="button")
+								i.glyphicon.glyphicon-chevron-left
+									|Previous
+							button.btn.btn-primary.next
+								|Next
+								i.glyphicon.glyphicon-chevron-right
