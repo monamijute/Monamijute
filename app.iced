@@ -30,9 +30,7 @@ app.use express.static( path.join( __dirname, "public"))
 
 app.use require("compression")()
 
-app.use require("connect-assets")
-	helperContext: app.locals
-	build: true
+
 
 app.use "/" , routes
 # routes(app)
