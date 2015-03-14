@@ -1,0 +1,57 @@
+header.header.fixed.clearfix.navbar.navbar-fixed-top
+	.container
+		.row
+			.col-md-4
+				// header left start
+				.header-left.clearfix
+					// logo
+					.logo.smooth-scroll
+						a(href="#")
+							img#logo(src = "images/logo.png" alt = "Monami")
+
+					// name and slogan
+					.site-name-and-slogan.smooth-scroll
+						.site-name
+							a(href ="#")
+								| Monami Impex
+						.site-slogan
+							| All sort of Jute Goods Manufacturer &amp; Exporter
+
+				// header left end
+
+			.col-md-8
+				// header right start
+
+				.header-right.clearfix
+					//main navigation start
+
+					.main-navigation.animated
+						//navbar start
+
+						.navbar.navbar-default(role = "navigation")
+							.container-fluid
+								// toggle get grouped for better mobile display
+								.navbar-header
+									button.navbar-toggle(data-toggle = "collapse" data-target = "#navbar-collapse-1")
+										span.sr-only Toggle Navigation
+										span.icon-bar
+										span.icon-bar
+										span.icon-bar
+
+
+								// Collect the nav links, forms,and other content for toggling
+								.collapse.navbar-collapse.scrollspy.smooth-scroll#navbar-collapse-1
+									ul.nav.navbar-nav.navbar-right
+										li.active
+											a(href = "#banner") Home
+										li
+											a(href = "#about") About
+										li
+											a(href = "#Portfolio") Portfolio
+										li
+											a(href = "contact") Contact Us
+						
+						// navbar end
+					//main navigation end
+				// header right end
+	// header end
