@@ -171,6 +171,11 @@ blockquote {
 .default-bg.blue {
 	background-color: #55acee;
 }
+
+.default-bg.brown{
+	background-color: #996515;
+}
+
 .translucent-bg {
 	color: #ffffff;
 }
@@ -227,6 +232,9 @@ blockquote {
 }
 .translucent-bg.blue:after {
 	background-color: rgba(85, 172, 238, 0.7);
+}
+.translucent-bg.brown:after{
+	background-color: rgba(153, 101, 21, 0.7);	
 }
 .translucent-bg .container {
 	z-index: 3;
