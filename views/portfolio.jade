@@ -1,0 +1,30 @@
+.section
+	.container
+		h1.text-center.title#portfolio Portfolio
+		.separator
+		p.lead.text-center Lorem ipsum dolor sit amet laudantium molestias similique.
+			br
+			Quisquam incidunt ut laboriosam.
+			br
+			.row.object-non-visible(data-animation-effect = "fadeIn")
+				.col-md-12
+
+					// isotope filters start
+
+					.filters.text-center
+						ul.nav.nav-pills
+							li.active
+								a(href = "#" data-filter = "*") All
+							li
+								a(href = "#" data-filter = ".web-design") Web Design
+							li
+								a(href = "#" data-filter = ".app-development") App Development
+							li
+								a(href = "#" data-filter = ".site-building") Site Building
+
+					// isotope filters end
+					.isotope-container.row.grid-space-20
+						include ./Portfolio/portfolio-1.jade
+						include ./Portfolio/portfolio-2.jade
+						include ./Portfolio/portfolio-3.jade
+						include ./Portfolio/portfolio-4.jade
